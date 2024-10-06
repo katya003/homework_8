@@ -1,9 +1,9 @@
 package data;
 
 public enum Data {
-    choiceEmailRu("kate@kate.ru"),
-    choiceEmailCom("kate@kate.com"),
-    choiceEmailGmail("kate@kate.ggg");
+    CHOICEEMAILRU("kate@kate.ru"),
+    CHOICEEMAILCOM("kate@kate.com"),
+    CHOICEEMAILGMAIL("kate@kate.ggg");
 
     private final String email;
 

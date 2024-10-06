@@ -12,7 +12,6 @@ import page.TextBoxPage;
 
 public class TextBoxPageObjectTests extends TestBase {
 
-    TextBoxPage textBoxPage = new TextBoxPage();
 
     @DisplayName("При вводе определенного имя пользователя, оно должно отображаться в окне результата")
     @ValueSource(strings = {"Kate Mar", "Test Tes", "Petr Pet"})
